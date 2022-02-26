@@ -1,4 +1,5 @@
-@import url("compass/css3");
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Gotu&family=Work+Sans:wght@300&display=swap');
+
 
 :root {
   --primary: rgb(221,221,221);
@@ -121,5 +122,65 @@ body {
 }
 
 p {
-  font-family: "WorkSans-Black" sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-size: small;
+}
+
+
+
+
+.grid-container {
+  background: rgb(221,221,221);
+  margin: 30px;   
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  border-style: solid;
+  font-family: monospace;
+}
+
+.grid-item {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  width: 1fr 1fr;
+  line-height: normal;
+  margin: 20px;
+  border: rgb(117,35,36) solid;
+}
+
+.grid-item ul {
+  list-style: none;
+  font-size: 15px;
+}
+
+.grid-item-intro {
+  color: black;
+  font-size: 18px;
+  text-align: left;
+  width: 1fr;
+  margin: 10px;
+}
+
+.grid-item-tac {
+  color: black;
+  font-size: 18px;
+  text-align: start;
+  width: 1fr;
+  margin: 20px;
+}
+
+#list {
+  text-align: start;
+  text-indent: 20px;
+}
+
+#list-kit {
+  text-indent: 30px;
+  text-align: start;
+}
+
+#a {
+  margin: 1px;
 }

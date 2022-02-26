@@ -64,8 +64,8 @@ img {
 
 /* Top Container */
 
-.big-box-left {
-    display: grid;
+.big-box {
+    display:grid;
     grid-gap: 20px;
     grid-template-areas:
      'showcase showcase top-box-a'
@@ -76,28 +76,32 @@ img {
 
 .showcase {
     grid-area: showcase;
-    min-height: 400px;
-    background: url(img/showcase.jpg);
-    background-size: cover;
-    background-position: center;
+    min-height: 490px;
+    background: url(/img/work-in-progress.png);
+    background-repeat: no-repeat;
     padding: 3rem;
-    display: flex;
+    display: end;
     flex-direction: column;
+    column-width: 590px;
     align-items: start;
     justify-content: center;
     box-shadow: var(--shadow);
 }
 
-.showcase h1 {
-    font-size: 4rem;
-    margin-bottom:0;
-    color: var(--light);
+.h-text-centre {
+    text-align: center;
+    line-height: 20px;
+    font-size: small;
 }
 
-.showcase p {
-    font-size: 1.3rem;
-    margin-top: 10;
-    color: var(--light);
+#working-progress {
+    text-align: end;
+}
+
+#tab-info {
+    font-family: cursive;
+    line-height: 20px;
+    font-size: small;
 }
 
 /* Top Box */
@@ -105,21 +109,10 @@ img {
 .top-box {
     background: var(--primary);
     display: grid;
-    align-items: center;
-    justify-items: center;
+    align-items: flex-start;
     box-shadow: var(--shadow);
     padding: 1.5rem;
-}
-.top-box .p {
-    font-size: 0.5rem;
-}
-
-.top-box-a {
-    grid-area: top-box-a;
-}
-
-.top-box-b {
-    grid-area: top-box-b;
+    line-height: 5px;
 }
 
 /*  Boxes */
@@ -152,7 +145,7 @@ img {
 
 .portfolio {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 15px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
