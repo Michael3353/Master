@@ -8,6 +8,34 @@
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
+/* h1 {
+
+}  */ 
+
+h2 {
+  text-align: center;
+  font-size: 2vw;
+  font-family: monospace;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2vw;
+  font-family: monospace;
+}
+
+h4 {
+  text-align: center;
+  font-size: 2vw;
+  font-family: monospace;
+}
+
+h5 {
+  text-align: center;
+  font-size: 2vw;
+  font-family: monospace;
+}
+
 
 
 
@@ -130,9 +158,9 @@ p {
 
 
 .grid-container {
-  background: rgb(221,221,221);
+  background: rgba(36,149,189,255);
   margin: 30px;   
-  height: 600px;
+  height: 358px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -183,4 +211,20 @@ p {
 
 #a {
   margin: 1px;
+}
+
+.my-list {
+  color: black;
+  font-size: 15px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: normal;
+  margin: 20px;
+  border: rgb(117,35,36) solid;
+  background:rgba(36,149,189,255) ;
+}
+
+.b {
+  font-size: 15px;
+  font-family: sans-serif;
 }
