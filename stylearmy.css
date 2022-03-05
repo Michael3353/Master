@@ -133,7 +133,7 @@ body {
 .content {
   background: radial-gradient(circle,rgb(156,198,254),rgba(156,198,254,0.5));
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
   padding: 20px;
   font-family: "Delius-Regular" sans-serif;
   /* opacity: 70%; */
@@ -230,7 +230,7 @@ p {
 }
 
 .grid-item-snatch-vixen {
-  width: fit-content;
+  width:max-content;
   margin: 25px;
   border: rgb(117,35,36) solid;
   grid-column: 1fr 1fr;
@@ -246,6 +246,9 @@ p {
 
 #cambridge {
   float: left;
-  max-width: 50%;
-  max-height: 50%;
+  margin-right: 15px;
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  padding: 1em;
 }
